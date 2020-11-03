@@ -12,6 +12,10 @@
           "basis": "32px"
         },
         "props": {
+          "style": {
+            "background-color": "#ff00ff",
+            "color": "#fafafa"
+          },
           "text": "Some Exciting Data:"
         },
         "type": "ia.display.label"
