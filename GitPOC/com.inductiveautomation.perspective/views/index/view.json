@@ -13,8 +13,7 @@
         },
         "props": {
           "style": {
-            "background-color": "#b42142",
-            "color": "#fafafa"
+            "classes": "Label"
           },
           "text": "Some Exciting Data:"
         },
@@ -301,7 +300,8 @@
         },
         "props": {
           "style": {
-            "margin-top": "30px"
+            "classes": "Label",
+            "margin-top": "10px"
           },
           "text": "Wow! Look at this random number gauge:"
         },
@@ -318,7 +318,7 @@
           "props.value": {
             "binding": {
               "config": {
-                "expression": "getSecond(now(5000))"
+                "expression": "getSecond(now(1000))"
               },
               "transforms": [
                 {

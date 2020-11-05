@@ -1,0 +1,12 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#eaeaea",
+      "color": "#424242",
+      "fontFamily": "Noto Sans",
+      "fontSize": "16px",
+      "fontWeight": "bold",
+      "paddingLeft": "10px"
+    }
+  }
+}
