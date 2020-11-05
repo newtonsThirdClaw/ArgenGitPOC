@@ -13,7 +13,7 @@
         },
         "props": {
           "style": {
-            "background-color": "#ff00ff",
+            "background-color": "#b42142",
             "color": "#fafafa"
           },
           "text": "Some Exciting Data:"
