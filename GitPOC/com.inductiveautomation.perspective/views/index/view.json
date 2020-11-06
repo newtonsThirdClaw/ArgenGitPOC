@@ -13,7 +13,9 @@
         },
         "props": {
           "style": {
-            "classes": "Label"
+            "background-color": "#fa23d4",
+            "classes": "Label",
+            "color": "#fafafa"
           },
           "text": "Some Exciting Data:"
         },
@@ -287,7 +289,23 @@
               "country": "Tunisia",
               "population": 1056247
             }
-          ]
+          ],
+          "rows": {
+            "highlight": {
+              "color": "#2196F3"
+            }
+          },
+          "selection": {
+            "data": [
+              {
+                "city": "Madrid",
+                "country": "Spain",
+                "population": 3233527
+              }
+            ],
+            "selectedColumn": "country",
+            "selectedRow": 3
+          }
         },
         "type": "ia.display.table"
       },
@@ -318,11 +336,11 @@
           "props.value": {
             "binding": {
               "config": {
-                "expression": "getSecond(now(1000))"
+                "expression": "getSecond(now(2000))"
               },
               "transforms": [
                 {
-                  "code": "\timport random\n\tnewVal \u003d random.randint(0,100)\n\treturn newVal",
+                  "code": "\timport random\n\tnewVal \u003d random.randint(0,90)\n\treturn newVal",
                   "type": "script"
                 }
               ],
@@ -331,6 +349,9 @@
           }
         },
         "props": {
+          "arc": {
+            "color": "#2196F3"
+          },
           "style": {
             "classes": []
           }
